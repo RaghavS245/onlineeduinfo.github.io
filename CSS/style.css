@@ -1,0 +1,369 @@
+*{
+	
+margin: 0;
+padding: 0;
+font-family: 'Noto Serif', serif;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+}
+/*----------Navigation-------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 20;
+}
+.navbar-brand img{
+position: absolute;
+top: 25px;
+left: 30px;
+	height: 50px;
+	padding-left:10px;
+	transform: translate(-50%,-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 0%;
+	box-shadow: inset 0 50px 150px rgba(0,0,0,1);
+	border-bottom: 1px solid #fff;
+	opacity: 0.5;
+	animation: animate 3s ease-in-out forwards;
+	background color: : black;
+}
+
+.navbar-brand img:hover{
+	opacity: 1;
+}
+
+@keyframes animate{
+	0%
+	{
+		transform: translate(-50%,-50%) scale(0);
+	}
+	100%
+	{
+		transform: translate(-50%,-50%) scale(1);
+	}
+}
+h1{
+	position: absolute;
+	top: 20;
+	left: 30;
+	text-shadow: 1px 1px 2px black;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	float: right;
+	text-align: right;
+}
+	#nav-bar ul li a:hover
+	{
+		color: #000000!important;
+	}
+	.navbar
+	{
+		color: 	yellow;
+	}
+	.navbar-toggler
+	{
+		border: none!important;
+	}
+	.nav-link
+	{
+		color: #66ccff!important;
+		font-weight: 550;
+		font-size: 16px;
+	}
+	body {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/educa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1{
+  position: absolute;
+  left: 350px;
+  top: 190px;
+  size: 30em;
+ }
+ h1{
+background-color: #ffffff;
+}
+h1{
+	color: #fff;
+}
+
+p{
+	position: absolute;
+	text-align: center;
+	background-color: #000000;
+	color: #fff;
+left: 1px;
+top: 390px;
+font-size: 28px;
+text-shadow: 1px 1px 2px blue;
+}
+
+h2{
+	position: absolute;
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	left: 340px;
+	top: 310px;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px green;
+}
+.change_content:after{
+	content: '';
+	animation: changetext 15s infinite linear;
+background-color:  transparent;
+	color: 	#fff;
+}
+
+@keyframes changetext{
+	0%{content: " IS IT THE FUTURE?";}
+	20%{content: " AND ITS ADVANTAGES";}
+	40%{content: " AND ITS DISADVANTAGES";}
+	60%{content: " VS CLASSROOM TEACHING";}
+	80%{content: " AND THE VARIOUS INITIATIVES TAKEN BY THE INDIAN GOVT ";}
+	100% ;{content: " AND ONLINE ASSESSMENTS";}
+}
+.form-control mr-sm-2{
+	position: absolute;
+	height: 60px;
+	padding-left: 50px;
+}
+.dropdown-item {
+    /* Size and position */
+    position: relative; /* Enable absolute positioning for children and pseudo elements */
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+
+    /* Styles */
+    background: #9bc7de;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+
+    /* Font settings */
+    font-weight: bold;
+}
+
+.changeINGcontent:after{
+	content: '';
+	animation: changingtext 15s infinite linear;
+	background-color:  transparent;
+	color: 	#fff;
+}
+
+@keyframes changingtext{
+	0%{content: " ASSIGNMENTS ";}
+	20%{content: " ONLINE TESTS";}
+	40%{content: "  PRESENTATIONS ";}
+	60%{content: "INTERACTION WITH THE TEACHERS";}
+	80%{content: " WRITTEN WORK ";}
+	100% ;{content: " ORAL WEEKLY QUIZZES";}
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 30s;
+}
+.nav-item{
+	list-style-type: none;
+}
+
+.h22{
+	top: 260px;
+	left: 250px;
+}
+
+.p11{
+	letter-spacing: 2px;
+}
+
+.change_content{
+	top: 280px;
+	left: 0px;
+}
+
+.changINGcontent:after{
+content: '';
+	animation: changeingtext 15s infinite linear;
+	background-color:  transparent;
+	color: 	#FFC0CB;	
+}
+
+@keyframes changeingtext{
+	0%{content: " SHARING RESOURCES ";}
+	20%{content: " FOSTERING DISCUSSIONS";}
+	35%{content: "  SUBMITTING ASSIGNMENTS ";}
+	55%{content: " ADMISTERING ASSESSMENTS";}
+	75%{content: " DELIVERING FEEDBACK ";}
+}
+
+.p111{
+	letter-spacing: 2px;
+	margin: 0px;
+	}
+
+.tittle{
+	left: 330px;
+}
+
+
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.h1111{
+	animation: type 400s steps(4837);
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: consolas;
+	border-right: 4px solid black;
+	width: 4837ch;
+}
+@keyframes type{
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width: 4837ch;
+	}
+}
+
+.changcontent:after{
+	content: '';
+	animation: changtext 15s infinite linear;
+	background-color:  transparent;
+	color: 	#fff;	
+}
+
+@keyframes changtext{
+	0%{content: " DIKSHA ";}
+	20%{content: " E-PATHSHALA";}
+	35%{content: "  NIOS ";}
+	55%{content: " E-YANTRA";}
+	75%{content: " FOSSEE";}
+}
+
+.chacontent:after{
+	content: '';
+	animation: chatext 15s infinite linear;
+	background-color:  transparent;
+	color: 	#000080;
+}
+@keyframes chatext{
+	0%{content: " UDEMY ";}
+	10%{content: " KHAN ACADEMY";}
+	20%{content: " COURSERA";}
+	30%{content: " edX";}
+	40%{content: " UDACITY";}
+	50%{content: " LYNDA";}
+	60%{content: " FUTURELEARN";}
+	70%{content: "  MASTERCLASS ";}
+	80%{content: " BYJUS";}
+	90%{content: " OPEN2STUDY";}
+}
+
+.bodyy{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/assessment.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.onlinee{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/student.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.edu{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/diksha.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ }
+
+ .covidcovid{
+ 	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.nav
+{
+position: absolute;
+width: 100%;
+height: 25px;
+background: linear-gradient(#FFB441, #FFAC2F, #FF9A00);
+bottom: -5px;
+word-spacing: 10px;
+position: center;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    word-wrap: break-word;
+    left: 10px
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
